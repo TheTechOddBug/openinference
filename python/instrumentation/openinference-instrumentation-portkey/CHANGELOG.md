@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.8](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-portkey-v0.1.7...python-openinference-instrumentation-portkey-v0.1.8) (2025-12-05)
+
+
+### Features
+
+* **portkey:** Add support for propmt template calls ([#1663](https://github.com/TheTechOddBug/openinference/issues/1663)) ([c1e813e](https://github.com/TheTechOddBug/openinference/commit/c1e813e26c62713229958c625c088ffe46ea1608))
+* **portkey:** Support instrumentation of `portkey_ai.AsyncPortkey` ([#2407](https://github.com/TheTechOddBug/openinference/issues/2407)) ([118ef32](https://github.com/TheTechOddBug/openinference/commit/118ef329a797c59e1e91ce00a3a13fd165c8fded))
+
+
+### Bug Fixes
+
+* **portkey:** CI Failures For Portkey ([#2368](https://github.com/TheTechOddBug/openinference/issues/2368)) ([3654315](https://github.com/TheTechOddBug/openinference/commit/365431588857ae5f15385f9dfc2f681e386b9845))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update dependancies for security ([#2320](https://github.com/TheTechOddBug/openinference/issues/2320)) ([c7eab4f](https://github.com/TheTechOddBug/openinference/commit/c7eab4fbcac5b7d7407d9ed9c28706d4919421fb))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/TheTechOddBug/openinference/issues/1567)) ([c2f428c](https://github.com/TheTechOddBug/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.7](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-portkey-v0.1.6...python-openinference-instrumentation-portkey-v0.1.7) (2025-11-13)
 
 
