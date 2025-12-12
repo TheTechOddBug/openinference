@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.15](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-beeai-v0.1.14...python-openinference-instrumentation-beeai-v0.1.15) (2025-12-12)
+
+
+### Features
+
+* BeeAI Framework Updates ([#2060](https://github.com/TheTechOddBug/openinference/issues/2060)) ([720d1fe](https://github.com/TheTechOddBug/openinference/commit/720d1fe2db55fa95fa9721438b441c4f7924c726))
+* **beeai:** align embedding spans with OpenAI/LiteLLM patterns ([#2438](https://github.com/TheTechOddBug/openinference/issues/2438)) ([9cb15d4](https://github.com/TheTechOddBug/openinference/commit/9cb15d433556a0e7a2e8631e14f3f97b5009a05f))
+* **beeai:** updates so we can run 0.1.19 ([#1576](https://github.com/TheTechOddBug/openinference/issues/1576)) ([84129f0](https://github.com/TheTechOddBug/openinference/commit/84129f0212763c96e23961695c4915ec5d14f2f7))
+* **python:** update beeai version ([#1552](https://github.com/TheTechOddBug/openinference/issues/1552)) ([48f04bb](https://github.com/TheTechOddBug/openinference/commit/48f04bb7fdd03525d7824d9889aebb745d012a5e))
+* update BeeAI data serialization ([#2108](https://github.com/TheTechOddBug/openinference/issues/2108)) ([0994ec5](https://github.com/TheTechOddBug/openinference/commit/0994ec58ffbb905da975b5e0be5ea9b512ca528b))
+* update beeai-framework ([#2227](https://github.com/TheTechOddBug/openinference/issues/2227)) ([8f8204d](https://github.com/TheTechOddBug/openinference/commit/8f8204dfb5e2de4ad172f4af2cba056435bf5762))
+* update beeai-framework integration ([#1829](https://github.com/TheTechOddBug/openinference/issues/1829)) ([c788ec3](https://github.com/TheTechOddBug/openinference/commit/c788ec3b8f1783fba1bb3d57022523d5de684b0a))
+
+
+### Bug Fixes
+
+* **beeaI:** dedupe traces/spans ([#2148](https://github.com/TheTechOddBug/openinference/issues/2148)) ([c528758](https://github.com/TheTechOddBug/openinference/commit/c5287584878089c4ea891b6768c5f2e4d86cbdb9))
+* **beeai:** update for RequirementAgent move from experimental to stable ([#2255](https://github.com/TheTechOddBug/openinference/issues/2255)) ([f511485](https://github.com/TheTechOddBug/openinference/commit/f51148592ac904b488fbe5c0d8a0815a09e34ad3))
+* removes spurious print(2) from python beeai and converts rest to loggers ([#1560](https://github.com/TheTechOddBug/openinference/issues/1560)) ([038209a](https://github.com/TheTechOddBug/openinference/commit/038209ab6be0d95181db19c1ae15b244ec7afe0a))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/TheTechOddBug/openinference/issues/1567)) ([c2f428c](https://github.com/TheTechOddBug/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.14](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-beeai-v0.1.13...python-openinference-instrumentation-beeai-v0.1.14) (2025-12-04)
 
 
