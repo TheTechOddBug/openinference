@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.30](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-haystack-v0.1.29...python-openinference-instrumentation-haystack-v0.1.30) (2026-02-20)
+
+
+### Features
+
+* **haysack-ai:** haystack async pipeline support ([#2300](https://github.com/TheTechOddBug/openinference/issues/2300)) ([abd8837](https://github.com/TheTechOddBug/openinference/commit/abd883711e519149142d214576e0ecf104e0a522))
+* **haystack:** Added Components instrumentation ([#2383](https://github.com/TheTechOddBug/openinference/issues/2383)) ([f22d546](https://github.com/TheTechOddBug/openinference/commit/f22d54638a655078b6919e5e05b1678b613931e3))
+* **haystack:** align embedding spans with OpenAI/LiteLLM patterns ([#2437](https://github.com/TheTechOddBug/openinference/issues/2437)) ([4e9685d](https://github.com/TheTechOddBug/openinference/commit/4e9685d375e43c40ccc494514cd71746d60d5d10))
+* **haystack:** Populate LLM Provider & System Attributes ([#2743](https://github.com/TheTechOddBug/openinference/issues/2743)) ([5f676be](https://github.com/TheTechOddBug/openinference/commit/5f676beadbb4398ca926dea3ac76422b52bd7005))
+
+
+### Bug Fixes
+
+* **haystack:** support base64-encoded embeddings and list[Document] hints ([#2245](https://github.com/TheTechOddBug/openinference/issues/2245)) ([75e5a1f](https://github.com/TheTechOddBug/openinference/commit/75e5a1fbf245109fec99c6fde90dffe499380797))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.29](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-haystack-v0.1.28...python-openinference-instrumentation-haystack-v0.1.29) (2025-12-04)
 
 

@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.16](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-beeai-v0.1.15...python-openinference-instrumentation-beeai-v0.1.16) (2026-02-20)
+
+
+### Features
+
+* BeeAI Framework Updates ([#2060](https://github.com/TheTechOddBug/openinference/issues/2060)) ([720d1fe](https://github.com/TheTechOddBug/openinference/commit/720d1fe2db55fa95fa9721438b441c4f7924c726))
+* **beeai:** Added tools support in beeai instrumentation ([#2543](https://github.com/TheTechOddBug/openinference/issues/2543)) ([29e415d](https://github.com/TheTechOddBug/openinference/commit/29e415da3df38a2e106959bdec98916357691c4f))
+* **beeai:** align embedding spans with OpenAI/LiteLLM patterns ([#2438](https://github.com/TheTechOddBug/openinference/issues/2438)) ([9cb15d4](https://github.com/TheTechOddBug/openinference/commit/9cb15d433556a0e7a2e8631e14f3f97b5009a05f))
+* update BeeAI data serialization ([#2108](https://github.com/TheTechOddBug/openinference/issues/2108)) ([0994ec5](https://github.com/TheTechOddBug/openinference/commit/0994ec58ffbb905da975b5e0be5ea9b512ca528b))
+* update beeai-framework ([#2227](https://github.com/TheTechOddBug/openinference/issues/2227)) ([8f8204d](https://github.com/TheTechOddBug/openinference/commit/8f8204dfb5e2de4ad172f4af2cba056435bf5762))
+* update beeai-framework integration ([#1829](https://github.com/TheTechOddBug/openinference/issues/1829)) ([c788ec3](https://github.com/TheTechOddBug/openinference/commit/c788ec3b8f1783fba1bb3d57022523d5de684b0a))
+
+
+### Bug Fixes
+
+* **beeaI:** dedupe traces/spans ([#2148](https://github.com/TheTechOddBug/openinference/issues/2148)) ([c528758](https://github.com/TheTechOddBug/openinference/commit/c5287584878089c4ea891b6768c5f2e4d86cbdb9))
+* **beeai:** update for RequirementAgent move from experimental to stable ([#2255](https://github.com/TheTechOddBug/openinference/issues/2255)) ([f511485](https://github.com/TheTechOddBug/openinference/commit/f51148592ac904b488fbe5c0d8a0815a09e34ad3))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.15](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-beeai-v0.1.14...python-openinference-instrumentation-beeai-v0.1.15) (2026-02-05)
 
 

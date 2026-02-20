@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-mistralai-v1.4.0...python-openinference-instrumentation-mistralai-v1.5.0) (2026-02-20)
+
+
+### Features
+
+* **mistralai:** Populate LLM Provider & System Attributes ([#2650](https://github.com/TheTechOddBug/openinference/issues/2650)) ([fbf48ef](https://github.com/TheTechOddBug/openinference/commit/fbf48ef159a9b0f9e0bf3eb46d41a9cfb1cafd44))
+
+
+### Bug Fixes
+
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [1.4.0](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-mistralai-v1.3.4...python-openinference-instrumentation-mistralai-v1.4.0) (2026-02-05)
 
 

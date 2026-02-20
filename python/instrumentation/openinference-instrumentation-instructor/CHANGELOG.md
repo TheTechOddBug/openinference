@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.14](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-instructor-v0.1.13...python-openinference-instrumentation-instructor-v0.1.14) (2026-02-20)
+
+
+### Features
+
+* **instructor:** Populate LLM Provider & System Attributes ([#2658](https://github.com/TheTechOddBug/openinference/issues/2658)) ([ae60838](https://github.com/TheTechOddBug/openinference/commit/ae608387a6ac75482587ba557202ee0f1c79734c))
+
+
+### Bug Fixes
+
+* **instructor:** Added compatibility with the latest instructor versi… ([#2287](https://github.com/TheTechOddBug/openinference/issues/2287)) ([5c5a02b](https://github.com/TheTechOddBug/openinference/commit/5c5a02b84ee07106c3f50c193fa803460baa3c32))
+* **instructor:** JSON Serialization Error for max_retries in Span Attributes ([#2212](https://github.com/TheTechOddBug/openinference/issues/2212)) ([c6d1d40](https://github.com/TheTechOddBug/openinference/commit/c6d1d40e98a123bb1029d0b7e4120de45f81d100))
+* **instructor:** make UserInfo fields optional for streaming partial responses ([#2295](https://github.com/TheTechOddBug/openinference/issues/2295)) ([5bb52cf](https://github.com/TheTechOddBug/openinference/commit/5bb52cfe25d0ec9693d562110c0af1097b7518b5))
+* Refactor Helpers With More Test Coverage ([#2750](https://github.com/TheTechOddBug/openinference/issues/2750)) ([6cf0cd3](https://github.com/TheTechOddBug/openinference/commit/6cf0cd3b47dc58f92ea6a35dd5ccc9dfa588effa))
+
 ## [0.1.13](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-instructor-v0.1.12...python-openinference-instrumentation-instructor-v0.1.13) (2026-02-05)
 
 

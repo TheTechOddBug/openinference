@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.4](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-mcp-v1.3.3...python-openinference-instrumentation-mcp-v1.3.4) (2026-02-20)
+
+
+### Bug Fixes
+
+* **mcp:** handle ValidationError in stdio stream instrumentation ([#2170](https://github.com/TheTechOddBug/openinference/issues/2170)) ([48aa236](https://github.com/TheTechOddBug/openinference/commit/48aa2362a97a7efb029bd1f1e339297e6c6feec0))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update dependancies for security ([#2320](https://github.com/TheTechOddBug/openinference/issues/2320)) ([c7eab4f](https://github.com/TheTechOddBug/openinference/commit/c7eab4fbcac5b7d7407d9ed9c28706d4919421fb))
+
 ## [1.3.3](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-mcp-v1.3.2...python-openinference-instrumentation-mcp-v1.3.3) (2025-10-23)
 
 

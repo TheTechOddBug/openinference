@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.13](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-pydantic-ai-v0.1.12...python-openinference-instrumentation-pydantic-ai-v0.1.13) (2026-02-20)
+
+
+### Features
+
+* **pydantic_ai:** Populate LLM Provider & System Attributes ([#2635](https://github.com/TheTechOddBug/openinference/issues/2635)) ([3c7774f](https://github.com/TheTechOddBug/openinference/commit/3c7774fc8af8bec17ca1b9700ee3f0c5baad2da0))
+* **pydentic_ai:** tools & multiple input/output messages support ([#2508](https://github.com/TheTechOddBug/openinference/issues/2508)) ([16c6ef2](https://github.com/TheTechOddBug/openinference/commit/16c6ef20d714f37e109df2873718f4777eaebfc6))
+* update pydantic-ai to v2 tracing format ([#2186](https://github.com/TheTechOddBug/openinference/issues/2186)) ([5eecce5](https://github.com/TheTechOddBug/openinference/commit/5eecce5c648d710d3ad9397e23773096e5903352))
+
+
+### Bug Fixes
+
+* **pydantic_ai:** Update Invalid Span Attribute For Tool Results ([#2729](https://github.com/TheTechOddBug/openinference/issues/2729)) ([c4c5056](https://github.com/TheTechOddBug/openinference/commit/c4c50566ad1e438293d8dae95d390aad3951beb8))
+* pydantic-ai add tool call result ([#2305](https://github.com/TheTechOddBug/openinference/issues/2305)) ([ede428c](https://github.com/TheTechOddBug/openinference/commit/ede428cc5653b1c8d89c6ba68753a1a57fb2bacd))
+* pydantic-ai fix span filtering ([#2016](https://github.com/TheTechOddBug/openinference/issues/2016)) ([c139f36](https://github.com/TheTechOddBug/openinference/commit/c139f3677233fb7c76b0b2bff5b4a2dafe1921dc))
+* pydantic-ai properly instrument tools and instructions ([#2250](https://github.com/TheTechOddBug/openinference/issues/2250)) ([6458835](https://github.com/TheTechOddBug/openinference/commit/64588357d31137dafcd855c9c610ce241dcd0519))
+* pydantic-ai use final user message as input value ([#2237](https://github.com/TheTechOddBug/openinference/issues/2237)) ([208232d](https://github.com/TheTechOddBug/openinference/commit/208232dfd6d47e8123beea41c47c8fc556012325))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.12](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-pydantic-ai-v0.1.11...python-openinference-instrumentation-pydantic-ai-v0.1.12) (2026-02-12)
 
 

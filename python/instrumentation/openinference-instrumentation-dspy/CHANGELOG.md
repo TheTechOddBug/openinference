@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.34](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-dspy-v0.1.33...python-openinference-instrumentation-dspy-v0.1.34) (2026-02-20)
+
+
+### Features
+
+* **dspy:** Instrument DSPy DummyLM ([#2067](https://github.com/TheTechOddBug/openinference/issues/2067)) ([0b0349d](https://github.com/TheTechOddBug/openinference/commit/0b0349d14f227ac6b51fdf461c4e614e8b80582a))
+
+
+### Bug Fixes
+
+* dspy ci test failures ([#2466](https://github.com/TheTechOddBug/openinference/issues/2466)) ([d8b3cbc](https://github.com/TheTechOddBug/openinference/commit/d8b3cbc0ac46bc069be371fa82ddd54611fafa2f))
+* Dspy Uninstrumenting instrumented methods ([#2511](https://github.com/TheTechOddBug/openinference/issues/2511)) ([b9860ed](https://github.com/TheTechOddBug/openinference/commit/b9860ed0d4289a179805dcc196d94031414f6883))
+* **dspy:** CI Failures For DSPy ([#2539](https://github.com/TheTechOddBug/openinference/issues/2539)) ([6a4e5d7](https://github.com/TheTechOddBug/openinference/commit/6a4e5d737923dd25e8b45ab67e4312c0c5c371e5))
+* **dspy:** mask api keys passed as arguments ([#1990](https://github.com/TheTechOddBug/openinference/issues/1990)) ([98218a1](https://github.com/TheTechOddBug/openinference/commit/98218a1bf710f860a93eb941194e2abcc2eec63f))
+* **dspy:** replace configure() with context() in async tests ([#2178](https://github.com/TheTechOddBug/openinference/issues/2178)) ([90c59e0](https://github.com/TheTechOddBug/openinference/commit/90c59e01c48a0d89a93172ed8e9d2436117b7cbc))
+* **instrumentation-dspy:** pin urllib3&lt;2.0 for pytest-recording compatibility ([#2007](https://github.com/TheTechOddBug/openinference/issues/2007)) ([51f5040](https://github.com/TheTechOddBug/openinference/commit/51f5040af8bef8f7407dde7451ea1f2fb6ca7950))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.33](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-dspy-v0.1.32...python-openinference-instrumentation-dspy-v0.1.33) (2026-01-08)
 
 
