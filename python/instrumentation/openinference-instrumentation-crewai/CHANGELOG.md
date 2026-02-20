@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.20](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-crewai-v0.1.19...python-openinference-instrumentation-crewai-v0.1.20) (2026-02-20)
+
+
+### Features
+
+* **crewai:** Add Kickoff ID Attribute in Root Level ([#2742](https://github.com/TheTechOddBug/openinference/issues/2742)) ([8df5581](https://github.com/TheTechOddBug/openinference/commit/8df558116cd3e596818640b69d5192497c16266c))
+* **crewai:** add task name attribute to span ([#2740](https://github.com/TheTechOddBug/openinference/issues/2740)) ([66fb074](https://github.com/TheTechOddBug/openinference/commit/66fb074ff0dad21c6c4f8d5d0752f39ef87f13e8))
+* **crewai:** capture graph.node.id and graph.node.parent_id semantics ([#1794](https://github.com/TheTechOddBug/openinference/issues/1794)) ([4645932](https://github.com/TheTechOddBug/openinference/commit/4645932b68f7ed5ab3ecd8818ddad9e1011c027e))
+* **crewai:** Enable Tracing Support For CrewAI Flows ([#2286](https://github.com/TheTechOddBug/openinference/issues/2286)) ([4930cb1](https://github.com/TheTechOddBug/openinference/commit/4930cb11f86845b10b02ed2cab03c63880419915))
+* **crewai:** Enable Tracing Support For CrewAI Metrics ([#2377](https://github.com/TheTechOddBug/openinference/issues/2377)) ([5e4b862](https://github.com/TheTechOddBug/openinference/commit/5e4b86223d73380c04561279b890bbf6d77f996f))
+* **crewai:** enhance span naming to include crew, agent, and tool context ([#2202](https://github.com/TheTechOddBug/openinference/issues/2202)) ([af44991](https://github.com/TheTechOddBug/openinference/commit/af44991003f70fc21701b2f1ead8a19554cd37e2))
+
+
+### Bug Fixes
+
+* **crewai:** CI Failures For CrewAI ([#2359](https://github.com/TheTechOddBug/openinference/issues/2359)) ([0921129](https://github.com/TheTechOddBug/openinference/commit/092112969c663b2215bd8a036441b8341a15d239))
+* **crewai:** CrewAI Flow Traces Not Generated With Async ([#2308](https://github.com/TheTechOddBug/openinference/issues/2308)) ([7e7f532](https://github.com/TheTechOddBug/openinference/commit/7e7f53283df61a0d78df01ab808bacdddd14620a))
+* **crewai:** Not Getting Inputs For CrewAI Root Span ([#2193](https://github.com/TheTechOddBug/openinference/issues/2193)) ([9cf3b8f](https://github.com/TheTechOddBug/openinference/commit/9cf3b8fa0f432f6b6f783fc25a9d3d78f9164d4e))
+* **crewai:** Not Getting Tool Spans From Latest CrewAI ([#2665](https://github.com/TheTechOddBug/openinference/issues/2665)) ([d80846f](https://github.com/TheTechOddBug/openinference/commit/d80846f897d8427b4bd58ddf510414838e42649c))
+
 ## [0.1.19](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-crewai-v0.1.18...python-openinference-instrumentation-crewai-v0.1.19) (2026-02-18)
 
 

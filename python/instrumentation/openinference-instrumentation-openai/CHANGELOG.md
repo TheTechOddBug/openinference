@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.1.42](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-openai-v0.1.41...python-openinference-instrumentation-openai-v0.1.42) (2026-02-20)
+
+
+### Features
+
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/TheTechOddBug/openinference/issues/2238)) ([d03047d](https://github.com/TheTechOddBug/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* openai + openai agent support custom tool calls ([#2080](https://github.com/TheTechOddBug/openinference/issues/2080)) ([ee8693c](https://github.com/TheTechOddBug/openinference/commit/ee8693c3325380440e4af4e0df708851c5598c30))
+* **openai:** align embedding instrumentation with pending spec ([#2210](https://github.com/TheTechOddBug/openinference/issues/2210)) ([df5b9d5](https://github.com/TheTechOddBug/openinference/commit/df5b9d5dc080eddc4c91b6cb413eadb59f6c9982))
+* **openai:** implement image redaction for input values when hide_input_images=True ([#2146](https://github.com/TheTechOddBug/openinference/issues/2146)) ([fac0604](https://github.com/TheTechOddBug/openinference/commit/fac0604caeedf0b0332151dfde69f0b51b554652))
+* **openai:** standardize completions to indexed attribute format ([#2242](https://github.com/TheTechOddBug/openinference/issues/2242)) ([478d17a](https://github.com/TheTechOddBug/openinference/commit/478d17a5433bd6119a8d501899a5eadbd2accccf))
+
+
+### Bug Fixes
+
+* Openai CI Failures ([#2461](https://github.com/TheTechOddBug/openinference/issues/2461)) ([e2b4dbc](https://github.com/TheTechOddBug/openinference/commit/e2b4dbc32ee797ae89f0814a5c1e48107ccf4dd0))
+* **openai:** add tool_id accumulator for resposne ([#2241](https://github.com/TheTechOddBug/openinference/issues/2241)) ([cb6e1a6](https://github.com/TheTechOddBug/openinference/commit/cb6e1a6f68a6262b0eb50d045eef002b086288c4))
+* **openai:** handle complex output types in responses API for openai 2 compat ([#2253](https://github.com/TheTechOddBug/openinference/issues/2253)) ([a209e6a](https://github.com/TheTechOddBug/openinference/commit/a209e6a1a33b36a497de5cc44d7059a723a75020))
+* **openai:** handle string format for image_url in chat completions ([#2213](https://github.com/TheTechOddBug/openinference/issues/2213)) ([4d09a7e](https://github.com/TheTechOddBug/openinference/commit/4d09a7ec101a849ca74e36820caaff519ebe610e))
+* **openai:** update lower bound on openinference-semantic-conventions ([#2279](https://github.com/TheTechOddBug/openinference/issues/2279)) ([45cfad1](https://github.com/TheTechOddBug/openinference/commit/45cfad1d27d247b1a58d08f10db6ed5896863c69))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.41](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openai-v0.1.40...python-openinference-instrumentation-openai-v0.1.41) (2025-12-04)
 
 

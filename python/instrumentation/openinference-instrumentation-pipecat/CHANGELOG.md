@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.4](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-pipecat-v0.1.3...python-openinference-instrumentation-pipecat-v0.1.4) (2026-02-20)
+
+
+### Features
+
+* **pipecat:** add auto instrumentor for pipecat ([#2441](https://github.com/TheTechOddBug/openinference/issues/2441)) ([956a3d8](https://github.com/TheTechOddBug/openinference/commit/956a3d8e3ee6f6fbe4efdebd81abe23732c10951))
+
+
+### Bug Fixes
+
+* **pipecat:** adding updates for tool calls ([#2661](https://github.com/TheTechOddBug/openinference/issues/2661)) ([06b3c5c](https://github.com/TheTechOddBug/openinference/commit/06b3c5cb85ceb06abbd8fd32d27d2fb01d036cc8))
+* **pipecat:** pipecat instrumentor improvement of TTS output ([#2586](https://github.com/TheTechOddBug/openinference/issues/2586)) ([3c1a1ae](https://github.com/TheTechOddBug/openinference/commit/3c1a1ae5e39a33085f0adae6209634062277cb06))
+* resolve Python daily cron failures (langchain, pipecat, openlit, agent-framework) ([#2724](https://github.com/TheTechOddBug/openinference/issues/2724)) ([87639c4](https://github.com/TheTechOddBug/openinference/commit/87639c48600a3e18ec16a3c75c185631916bd7f3))
+* update for pipecat release ([#2582](https://github.com/TheTechOddBug/openinference/issues/2582)) ([02e13dc](https://github.com/TheTechOddBug/openinference/commit/02e13dc9ff680877bbcf8cc78a0c4653afc72d7d))
+
 ## [0.1.3](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-pipecat-v0.1.2...python-openinference-instrumentation-pipecat-v0.1.3) (2026-02-12)
 
 

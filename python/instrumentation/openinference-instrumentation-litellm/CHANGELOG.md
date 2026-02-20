@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.30](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-litellm-v0.1.29...python-openinference-instrumentation-litellm-v0.1.30) (2026-02-20)
+
+
+### Features
+
+* **litellm:** add llm provider attributes ([#2094](https://github.com/TheTechOddBug/openinference/issues/2094)) ([86e681a](https://github.com/TheTechOddBug/openinference/commit/86e681aaf98116016848fc7d1b6c26a8c6607a25))
+* **litellm:** Added Support for responses API in litellm instrumentor ([#2209](https://github.com/TheTechOddBug/openinference/issues/2209)) ([1abc662](https://github.com/TheTechOddBug/openinference/commit/1abc6624fc82381a2017f7871f1041391cea0eab))
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/TheTechOddBug/openinference/issues/2238)) ([d03047d](https://github.com/TheTechOddBug/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* **litellm:** track tool schemas from kwargs in litellm completion functions ([#1865](https://github.com/TheTechOddBug/openinference/issues/1865)) ([4df17c3](https://github.com/TheTechOddBug/openinference/commit/4df17c3562c1168db14af86fe5173b00e1ffadeb))
+
+
+### Bug Fixes
+
+* litellm async calls with stream reports token usage and span status ([#2480](https://github.com/TheTechOddBug/openinference/issues/2480)) ([fce93ef](https://github.com/TheTechOddBug/openinference/commit/fce93ef2243ffb1c4d539ecd2d9ac8e777912d3d))
+* **litellm:** Fixing Invocation Params, Output Messages ([#1838](https://github.com/TheTechOddBug/openinference/issues/1838)) ([9f15912](https://github.com/TheTechOddBug/openinference/commit/9f15912bc87e697e1021db0b63e9d2c8b3d1e377))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.29](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-litellm-v0.1.28...python-openinference-instrumentation-litellm-v0.1.29) (2026-01-08)
 
 

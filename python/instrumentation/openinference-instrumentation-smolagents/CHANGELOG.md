@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.1.23](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-smolagents-v0.1.22...python-openinference-instrumentation-smolagents-v0.1.23) (2026-02-20)
+
+
+### Features
+
+* **smolagents:** Improve Display Of Handled Errors ([#1845](https://github.com/TheTechOddBug/openinference/issues/1845)) ([fb7eb1f](https://github.com/TheTechOddBug/openinference/commit/fb7eb1fa36adb7bb5ff001dce196c32ceb244a18))
+* **smolagents:** Populate LLM Provider & System Attributes ([#2631](https://github.com/TheTechOddBug/openinference/issues/2631)) ([a9062f2](https://github.com/TheTechOddBug/openinference/commit/a9062f29ffbc9c980061d4fe5e25f09662e8b7ca))
+
+
+### Bug Fixes
+
+* Add handling for json dumping of non-serializable objects ([#2581](https://github.com/TheTechOddBug/openinference/issues/2581)) ([b6e44f8](https://github.com/TheTechOddBug/openinference/commit/b6e44f8734b623ae07339a5946a0e4e6d236e375))
+* Refactor Helpers With More Test Coverage ([#2750](https://github.com/TheTechOddBug/openinference/issues/2750)) ([6cf0cd3](https://github.com/TheTechOddBug/openinference/commit/6cf0cd3b47dc58f92ea6a35dd5ccc9dfa588effa))
+* **smolagents:** Getting Multiple Traces While Streaming Code Agent ([#1872](https://github.com/TheTechOddBug/openinference/issues/1872)) ([420ea79](https://github.com/TheTechOddBug/openinference/commit/420ea79a5fd2ce572cb7bdcb38b6585107cce465))
+* **smolagents:** give agent run span as more descriptive span name ([#2454](https://github.com/TheTechOddBug/openinference/issues/2454)) ([6ffccce](https://github.com/TheTechOddBug/openinference/commit/6ffccce7e41892a9f2e1151c1337002e67b40119))
+* **smolagents:** Not Getting Step Spans From Latest Smolagents ([#2171](https://github.com/TheTechOddBug/openinference/issues/2171)) ([14f0a19](https://github.com/TheTechOddBug/openinference/commit/14f0a1994a43476f77b1e906912d4a572d194700))
+* **smolagents:** prevent duplicate llm spans ([#2118](https://github.com/TheTechOddBug/openinference/issues/2118)) ([f1a2946](https://github.com/TheTechOddBug/openinference/commit/f1a29460344d37e7e431d2bd76bc6f724bcbb931))
+* **smolagents:** tool spans fix ([#2425](https://github.com/TheTechOddBug/openinference/issues/2425)) ([248d025](https://github.com/TheTechOddBug/openinference/commit/248d025c71cfc6b378b6128635c8e37a39afef20))
+* **smolagents:** use new token_usage structure ([#2087](https://github.com/TheTechOddBug/openinference/issues/2087)) ([c691712](https://github.com/TheTechOddBug/openinference/commit/c6917124a236eb6deff1e1faf214075662ebfc58))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.22](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-smolagents-v0.1.21...python-openinference-instrumentation-smolagents-v0.1.22) (2026-02-05)
 
 

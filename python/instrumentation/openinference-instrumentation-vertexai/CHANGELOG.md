@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.13](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-vertexai-v0.1.12...python-openinference-instrumentation-vertexai-v0.1.13) (2026-02-20)
+
+
+### Features
+
+* **vertexai:** Populate LLM Provider & System Attributes ([#2617](https://github.com/TheTechOddBug/openinference/issues/2617)) ([321f99a](https://github.com/TheTechOddBug/openinference/commit/321f99a931218045c93e1a1ef346e4963629737e))
+
 ## [0.1.12](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-vertexai-v0.1.11...python-openinference-instrumentation-vertexai-v0.1.12) (2026-02-05)
 
 

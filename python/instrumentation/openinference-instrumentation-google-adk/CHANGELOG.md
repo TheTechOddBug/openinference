@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.10](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-google-adk-v0.1.9...python-openinference-instrumentation-google-adk-v0.1.10) (2026-02-20)
+
+
+### Features
+
+* google adk artifacts ([#2570](https://github.com/TheTechOddBug/openinference/issues/2570)) ([45f7027](https://github.com/TheTechOddBug/openinference/commit/45f70276a829bd2e41217e67daf9ae84b30b545e))
+* **google-adk:** Add agent.name attribute to agent run spans and add multi-agent test ([#2510](https://github.com/TheTechOddBug/openinference/issues/2510)) ([d08f500](https://github.com/TheTechOddBug/openinference/commit/d08f5002a13e11cee6e230dbe56a6667a5101fca))
+
+
+### Bug Fixes
+
+* Google adk ci failures ([#2484](https://github.com/TheTechOddBug/openinference/issues/2484)) ([2d9864c](https://github.com/TheTechOddBug/openinference/commit/2d9864ce6cd41419dbf02e009e19d1c3fa626e46))
+* **google-adk:** Capture all tool results when LLM makes multiple parallel tool calls ([#2483](https://github.com/TheTechOddBug/openinference/issues/2483)) ([5fc74e4](https://github.com/TheTechOddBug/openinference/commit/5fc74e4fcb8f9e322b067233aaa8605e672d53b4))
+* **google-adk:** fix test compatibility with v1.13.0 ([#2176](https://github.com/TheTechOddBug/openinference/issues/2176)) ([dbe0668](https://github.com/TheTechOddBug/openinference/commit/dbe066844397be079e90900ab3eff9a920dbf436))
+* **google-adk:** remove dependency on private telemetry API ([#2244](https://github.com/TheTechOddBug/openinference/issues/2244)) ([e07939d](https://github.com/TheTechOddBug/openinference/commit/e07939d2ae530212e81004ef466d01e34f798b2d))
+* include reasoning and audio token count for genai and adk instrumentors ([#1812](https://github.com/TheTechOddBug/openinference/issues/1812)) ([921ff07](https://github.com/TheTechOddBug/openinference/commit/921ff073e28ac2755b651dcdfac9ab3dbd673e70))
+* pydantic model serialization for input value and image bytes for google-adk ([#2031](https://github.com/TheTechOddBug/openinference/issues/2031)) ([46ef152](https://github.com/TheTechOddBug/openinference/commit/46ef1522f73cf98f8c2b318b7afc7444160033b3))
+* serialization of response schema in invocation parameters for google-adk ([#2033](https://github.com/TheTechOddBug/openinference/issues/2033)) ([586689f](https://github.com/TheTechOddBug/openinference/commit/586689f4ec6a37a6f3961740ebff4734f92ec3e5))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.9](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-google-adk-v0.1.8...python-openinference-instrumentation-google-adk-v0.1.9) (2026-02-05)
 
 

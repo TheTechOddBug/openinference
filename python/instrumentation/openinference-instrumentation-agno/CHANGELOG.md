@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.1.29](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-agno-v0.1.28...python-openinference-instrumentation-agno-v0.1.29) (2026-02-20)
+
+
+### Features
+
+* add updates for agno 2.5 release ([#2716](https://github.com/TheTechOddBug/openinference/issues/2716)) ([d32092e](https://github.com/TheTechOddBug/openinference/commit/d32092e0d2060feee4e230ee5d0b3644aa925d22))
+* **agno:** add workflow wrapper for instrumentation ([#2450](https://github.com/TheTechOddBug/openinference/issues/2450)) ([89699cd](https://github.com/TheTechOddBug/openinference/commit/89699cdc66399e9f61c0880c1fdd62f0101e723d))
+* **Agno:** Capture agent graph attributes  ([#2090](https://github.com/TheTechOddBug/openinference/issues/2090)) ([7930348](https://github.com/TheTechOddBug/openinference/commit/7930348788c292958b3701119dc4c2837a341c53))
+* **Agno:** Capture graph attributes for agent visual ([#2053](https://github.com/TheTechOddBug/openinference/issues/2053)) ([8d5ae09](https://github.com/TheTechOddBug/openinference/commit/8d5ae09b09fbcfaae7bab0dea25db3a2ad076a4d))
+* **agno:** enable user tracking ([#1997](https://github.com/TheTechOddBug/openinference/issues/1997)) ([d76f5f1](https://github.com/TheTechOddBug/openinference/commit/d76f5f1ef112658a8286d9becf8c9f114b7bc911))
+* **agno:** remove duplicate constants and resolve tool call issue ([#2304](https://github.com/TheTechOddBug/openinference/issues/2304)) ([2f15069](https://github.com/TheTechOddBug/openinference/commit/2f15069dbda1e0a030f6d095f5156fdd3ae6d2c6))
+* enhance function call span attributes with input value and erro… ([#1836](https://github.com/TheTechOddBug/openinference/issues/1836)) ([5d239df](https://github.com/TheTechOddBug/openinference/commit/5d239dfbebcfaf34f276e9169be644b91eeafd09))
+* Prioritize subclasses method wrapping to prevent multiple spans ([#1809](https://github.com/TheTechOddBug/openinference/issues/1809)) ([cc37471](https://github.com/TheTechOddBug/openinference/commit/cc37471bcf2be18ff205ab4e49654be42c27daee))
+* Updated Agno attributes ([#2262](https://github.com/TheTechOddBug/openinference/issues/2262)) ([a4a2135](https://github.com/TheTechOddBug/openinference/commit/a4a213510a88117cbd0f15c4e84a84c8ee9b470d))
+
+
+### Bug Fixes
+
+* Agno Session ID issues ([#2313](https://github.com/TheTechOddBug/openinference/issues/2313)) ([34402a0](https://github.com/TheTechOddBug/openinference/commit/34402a0a8478e1b047a76c6a885c5256cec015bc))
+* Agno streaming tool call handling ([#2309](https://github.com/TheTechOddBug/openinference/issues/2309)) ([4b7da83](https://github.com/TheTechOddBug/openinference/commit/4b7da833ae9a91989d09ea78c38ca2e0bd44c0b1))
+* agno team id release ([#2415](https://github.com/TheTechOddBug/openinference/issues/2415)) ([dcd3aa7](https://github.com/TheTechOddBug/openinference/commit/dcd3aa7f33192a30976485c1a01b06765da24010))
+* Agno v2 fixes ([#2211](https://github.com/TheTechOddBug/openinference/issues/2211)) ([278f570](https://github.com/TheTechOddBug/openinference/commit/278f570130635d99672126554b9d3a950c658ff4))
+* **agno:** Add agent.name attribute and fix Team span attributes being overwritten by members ([#2516](https://github.com/TheTechOddBug/openinference/issues/2516)) ([4556372](https://github.com/TheTechOddBug/openinference/commit/4556372658fbc55be1f0f7089c2735bb1c57a536))
+* **agno:** capture session_id and user_id for teams too ([#2086](https://github.com/TheTechOddBug/openinference/issues/2086)) ([0a51d50](https://github.com/TheTechOddBug/openinference/commit/0a51d50be89a440d6df2fca90fe72ab730ee7267))
+* **agno:** multi team runs coming as nested subtraces ([#2533](https://github.com/TheTechOddBug/openinference/issues/2533)) ([ac6576d](https://github.com/TheTechOddBug/openinference/commit/ac6576d6e8c9e69fcf5c0d421770b35ee611b1c9))
+* **agno:** Resolving CI issues for Agno ([#2380](https://github.com/TheTechOddBug/openinference/issues/2380)) ([a82ef6c](https://github.com/TheTechOddBug/openinference/commit/a82ef6c34a79d53c892c5017d76cce053655801d))
+* **agno:** Update _output_value_and_mime_type to properly deserialize output messages ([#2433](https://github.com/TheTechOddBug/openinference/issues/2433)) ([600d2f3](https://github.com/TheTechOddBug/openinference/commit/600d2f3f320bed94bcae4ae4ed956c2d178a1e1c))
+* correct usage of user id & session id ([#2138](https://github.com/TheTechOddBug/openinference/issues/2138)) ([165b7e8](https://github.com/TheTechOddBug/openinference/commit/165b7e890cb9691ff1ab3890288c97dc046f1a1b))
+* ensure tool error spans are properly ended and exported ([#2654](https://github.com/TheTechOddBug/openinference/issues/2654)) ([e58f177](https://github.com/TheTechOddBug/openinference/commit/e58f17794f3bde2998dc9f08e1d3307ebd8f96f4))
+* Get last run output ([#2369](https://github.com/TheTechOddBug/openinference/issues/2369)) ([57a9758](https://github.com/TheTechOddBug/openinference/commit/57a97585512f34550d5a50508ca801440cda1071))
+* Iterators for runs ([#2406](https://github.com/TheTechOddBug/openinference/issues/2406)) ([6ac1483](https://github.com/TheTechOddBug/openinference/commit/6ac14839368a932265cf64b8682586533b1633e2))
+* nullable agent.name in agno instrumentation arun ([#1803](https://github.com/TheTechOddBug/openinference/issues/1803)) ([c2cc388](https://github.com/TheTechOddBug/openinference/commit/c2cc3884c3eb2ba00ddb992cc7b2aff1709bd891))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.28](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-agno-v0.1.27...python-openinference-instrumentation-agno-v0.1.28) (2026-02-12)
 
 

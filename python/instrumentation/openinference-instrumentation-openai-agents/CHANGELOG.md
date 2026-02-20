@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-openai-agents-v1.4.0...python-openinference-instrumentation-openai-agents-v2.0.0) (2026-02-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* set openinference processor as the exclusive processor by default ([#1792](https://github.com/TheTechOddBug/openinference/issues/1792))
+
+### Features
+
+* Added support py314 ([#2470](https://github.com/TheTechOddBug/openinference/issues/2470)) ([1399bcb](https://github.com/TheTechOddBug/openinference/commit/1399bcba260cc33c07328406c0b6c74466d315ce))
+* openai + openai agent support custom tool calls ([#2080](https://github.com/TheTechOddBug/openinference/issues/2080)) ([ee8693c](https://github.com/TheTechOddBug/openinference/commit/ee8693c3325380440e4af4e0df708851c5598c30))
+* **openai-agents:** capture graph.node.id and graph.node.parent_id semantics  ([#1854](https://github.com/TheTechOddBug/openinference/issues/1854)) ([0864c13](https://github.com/TheTechOddBug/openinference/commit/0864c13fdfa9e289468ac0a79a2860a155be46de))
+* **openai:** implement image redaction for input values when hide_input_images=True ([#2146](https://github.com/TheTechOddBug/openinference/issues/2146)) ([fac0604](https://github.com/TheTechOddBug/openinference/commit/fac0604caeedf0b0332151dfde69f0b51b554652))
+* set openinference processor as the exclusive processor by default ([#1792](https://github.com/TheTechOddBug/openinference/issues/1792)) ([d56abb1](https://github.com/TheTechOddBug/openinference/commit/d56abb1935aa4a96925214c39cef045381ab9b15))
+
+
+### Bug Fixes
+
+* CI issues for openai agents ([#2367](https://github.com/TheTechOddBug/openinference/issues/2367)) ([a18078b](https://github.com/TheTechOddBug/openinference/commit/a18078bb150134b5988c454b9143e1ef93fc4aa6))
+* fix IndexError for empty function output ([#1878](https://github.com/TheTechOddBug/openinference/issues/1878)) ([e6453e7](https://github.com/TheTechOddBug/openinference/commit/e6453e72784aac519e05c98b541a551500b814a4))
+* Openai CI Failures ([#2461](https://github.com/TheTechOddBug/openinference/issues/2461)) ([e2b4dbc](https://github.com/TheTechOddBug/openinference/commit/e2b4dbc32ee797ae89f0814a5c1e48107ccf4dd0))
+* openai-agents CI add eval_type_backport dependency for Python &lt;3.10 compatibility ([#2004](https://github.com/TheTechOddBug/openinference/issues/2004)) ([f38ed8e](https://github.com/TheTechOddBug/openinference/commit/f38ed8efe6734297a3e77c0b4d4ddde32bc8ba11))
+* **openai-agents:** handle None token details from providers ([#2496](https://github.com/TheTechOddBug/openinference/issues/2496)) ([aa31202](https://github.com/TheTechOddBug/openinference/commit/aa3120275c228af163bb2d8cba23eca0124610cd))
+* **openai-agents:** serialize complex output types to JSON for AttributeValue compatibility ([dc9b1ae](https://github.com/TheTechOddBug/openinference/commit/dc9b1aee75fd2362bf4501bf6f6d267e379d0819))
+
 ## [1.4.0](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openai-agents-v1.3.1...python-openinference-instrumentation-openai-agents-v1.4.0) (2025-12-04)
 
 

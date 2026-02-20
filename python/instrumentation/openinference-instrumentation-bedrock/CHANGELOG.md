@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.33](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-bedrock-v0.1.32...python-openinference-instrumentation-bedrock-v0.1.33) (2026-02-20)
+
+
+### Features
+
+* **bedrock-agents:** Added Support for bedrock invoke inline agent ([#2256](https://github.com/TheTechOddBug/openinference/issues/2256)) ([2d4e27e](https://github.com/TheTechOddBug/openinference/commit/2d4e27eb29496154ef26754de36eb10a4312f4e5))
+* **bedrock:** Add instrumentation for guardrailTrace ([#2058](https://github.com/TheTechOddBug/openinference/issues/2058)) ([8ea1eef](https://github.com/TheTechOddBug/openinference/commit/8ea1eef5db0a334c5ca66c77f7217246156d7ef0))
+* **bedrock:** Add Routing Classifier Trace event ([#2495](https://github.com/TheTechOddBug/openinference/issues/2495)) ([e878e1c](https://github.com/TheTechOddBug/openinference/commit/e878e1cdb7bf82601caf90ae8e7b66fbff23e02e))
+* **bedrock:** added support for retrieve, retrieve and generate ([#1786](https://github.com/TheTechOddBug/openinference/issues/1786)) ([2652fa7](https://github.com/TheTechOddBug/openinference/commit/2652fa7372a02980b55425591f16b61626db297c))
+* **bedrock:** Bedrock converse streaming support added ([#2172](https://github.com/TheTechOddBug/openinference/issues/2172)) ([5b9ba8f](https://github.com/TheTechOddBug/openinference/commit/5b9ba8f8739170cf1aa4e6ae359449382bcd9416))
+
+
+### Bug Fixes
+
+* **bedrock:** fix test compatibility with boto3-latest ([#2243](https://github.com/TheTechOddBug/openinference/issues/2243)) ([7cf5760](https://github.com/TheTechOddBug/openinference/commit/7cf576059859e370a3f83b60d0e2c9ff6d6971b7))
+* **bedrock:** fixing invoke model api calls ([#1760](https://github.com/TheTechOddBug/openinference/issues/1760)) ([0ce91a5](https://github.com/TheTechOddBug/openinference/commit/0ce91a5da29c36160b16da7194c4c59dca24bed4))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.32](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-bedrock-v0.1.31...python-openinference-instrumentation-bedrock-v0.1.32) (2025-12-08)
 
 

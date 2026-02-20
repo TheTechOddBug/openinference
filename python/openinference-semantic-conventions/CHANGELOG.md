@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.27](https://github.com/TheTechOddBug/openinference/compare/python-openinference-semantic-conventions-v0.1.26...python-openinference-semantic-conventions-v0.1.27) (2026-02-20)
+
+
+### Features
+
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/TheTechOddBug/openinference/issues/2238)) ([d03047d](https://github.com/TheTechOddBug/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* **openai:** standardize completions to indexed attribute format ([#2242](https://github.com/TheTechOddBug/openinference/issues/2242)) ([478d17a](https://github.com/TheTechOddBug/openinference/commit/478d17a5433bd6119a8d501899a5eadbd2accccf))
+* **semconv:** add prompt span kind and prompt template variables attributes ([#2669](https://github.com/TheTechOddBug/openinference/issues/2669)) ([cd5d2ff](https://github.com/TheTechOddBug/openinference/commit/cd5d2ff13ecbd50472f4097ac10994aee3245924))
+
+
+### Bug Fixes
+
+* **semconv:** refactor semconv ([#2281](https://github.com/TheTechOddBug/openinference/issues/2281)) ([090864b](https://github.com/TheTechOddBug/openinference/commit/090864b0549588830c38aaa1fcd9c9700f7caf14))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.26](https://github.com/Arize-ai/openinference/compare/python-openinference-semantic-conventions-v0.1.25...python-openinference-semantic-conventions-v0.1.26) (2026-02-01)
 
 

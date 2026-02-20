@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.1.60](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-langchain-v0.1.59...python-openinference-instrumentation-langchain-v0.1.60) (2026-02-20)
+
+
+### Features
+
+* add span attributes `llm.provider` and `llm.system` to langchain instrumentation ([#1791](https://github.com/TheTechOddBug/openinference/issues/1791)) ([545f52d](https://github.com/TheTechOddBug/openinference/commit/545f52d25ce803410d92ba7f18da8bf2a8d87087))
+* Instrument sssistant tool calls made by LangGraph  ([#2012](https://github.com/TheTechOddBug/openinference/issues/2012)) ([f0e5852](https://github.com/TheTechOddBug/openinference/commit/f0e585258aca591dbb4e97cc1a7503b56971cebc))
+* unwrap input output keys from io values ([#1993](https://github.com/TheTechOddBug/openinference/issues/1993)) ([534c727](https://github.com/TheTechOddBug/openinference/commit/534c72764a72cfd995ecf3d0f70ecaafc7cf359a))
+
+
+### Bug Fixes
+
+* anthropic token count ([#2428](https://github.com/TheTechOddBug/openinference/issues/2428)) ([698dc81](https://github.com/TheTechOddBug/openinference/commit/698dc81f731140efb128a84892f6c9579c879a10))
+* Fix Langchain ([#2457](https://github.com/TheTechOddBug/openinference/issues/2457)) ([870bf16](https://github.com/TheTechOddBug/openinference/commit/870bf1678a2cfd0f2f77255c24b7899e2b6d3886))
+* langchain auto instrumentor supports Python 3.14 ([#2292](https://github.com/TheTechOddBug/openinference/issues/2292)) ([53b438a](https://github.com/TheTechOddBug/openinference/commit/53b438acc181b1b482debbf9e9de263951d8c476))
+* **langchain:** anthropic cache token count ([#2414](https://github.com/TheTechOddBug/openinference/issues/2414)) ([9f21f0f](https://github.com/TheTechOddBug/openinference/commit/9f21f0ffca32c9ba370c621166aa50a4743c6891))
+* **Langchain:** Handle custom data in additional kwargs ([#1898](https://github.com/TheTechOddBug/openinference/issues/1898)) ([c7f71e1](https://github.com/TheTechOddBug/openinference/commit/c7f71e19a128ff6054cd66120bb00b79d70e51ef))
+* **langchain:** Handle Non-String Dictionary Keys ([#2555](https://github.com/TheTechOddBug/openinference/issues/2555)) ([d0f8f8c](https://github.com/TheTechOddBug/openinference/commit/d0f8f8c2ed09913cdc45c86d3bd6dec78d10b700))
+* **langchain:** handle None message id fields ([#2412](https://github.com/TheTechOddBug/openinference/issues/2412)) ([0df5bf0](https://github.com/TheTechOddBug/openinference/commit/0df5bf0cf7873d87e578ce7433c8642225b74597))
+* **langchain:** import testing dependencies from changes brought by langchian v1.0.0 ([#2336](https://github.com/TheTechOddBug/openinference/issues/2336)) ([55c9a0d](https://github.com/TheTechOddBug/openinference/commit/55c9a0d3a6826f6a9c2fd76a108291a82e2f5b22))
+* **Langchain:** map UsageMetadata object ([#2136](https://github.com/TheTechOddBug/openinference/issues/2136)) ([dab6cfd](https://github.com/TheTechOddBug/openinference/commit/dab6cfd72e6e537f0e8d0b5f78285f46182501fa))
+* resolve Python daily cron failures (langchain, pipecat, openlit, agent-framework) ([#2724](https://github.com/TheTechOddBug/openinference/issues/2724)) ([87639c4](https://github.com/TheTechOddBug/openinference/commit/87639c48600a3e18ec16a3c75c185631916bd7f3))
+* small typo in str() call ([#1822](https://github.com/TheTechOddBug/openinference/issues/1822)) ([4a7385b](https://github.com/TheTechOddBug/openinference/commit/4a7385b968330e420c67a9a9066fc0f95b4109c5))
+* tool call for anthropic bedrock invoke model ([#1995](https://github.com/TheTechOddBug/openinference/issues/1995)) ([c26ffe5](https://github.com/TheTechOddBug/openinference/commit/c26ffe57e696221cd82c32e262b4cc8fd32fbe8a))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* use `llm_output` and `metadata` for model name ([#1819](https://github.com/TheTechOddBug/openinference/issues/1819)) ([8cb7439](https://github.com/TheTechOddBug/openinference/commit/8cb7439daf45910f918468651624519de1c1b8de))
+
+
+### Documentation
+
+* create gemini_tracing.py ([#1456](https://github.com/TheTechOddBug/openinference/issues/1456)) ([46e135f](https://github.com/TheTechOddBug/openinference/commit/46e135fdc394234e80510808fbd8b04746365b66))
+
 ## [0.1.59](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-langchain-v0.1.58...python-openinference-instrumentation-langchain-v0.1.59) (2026-02-12)
 
 
