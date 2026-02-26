@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.1.46](https://github.com/TheTechOddBug/openinference/compare/python-openinference-instrumentation-v0.1.45...python-openinference-instrumentation-v0.1.46) (2026-02-26)
+
+
+### Features
+
+* add Open Agent Spec Instrumentor ([#2560](https://github.com/TheTechOddBug/openinference/issues/2560)) ([48a8722](https://github.com/TheTechOddBug/openinference/commit/48a87228767089416bbe608a8ff782923c9db5b5))
+* Allow to hide llm.prompts span from trace config ([#1863](https://github.com/TheTechOddBug/openinference/issues/1863)) ([7d633d8](https://github.com/TheTechOddBug/openinference/commit/7d633d8fcf6ab5dbd8596a5900f3982db8e88d89))
+* increase default span attribute count limit to 10,000 ([#2042](https://github.com/TheTechOddBug/openinference/issues/2042)) ([0e90576](https://github.com/TheTechOddBug/openinference/commit/0e90576cd841c73f561ffbb98d9a39cfe035509d))
+* **instrumentation:** add dangerously_using_project context manager ([#2134](https://github.com/TheTechOddBug/openinference/issues/2134)) ([aed9db0](https://github.com/TheTechOddBug/openinference/commit/aed9db05b93d1ae0cb7d8a49977de1926b038740))
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/TheTechOddBug/openinference/issues/2238)) ([d03047d](https://github.com/TheTechOddBug/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* **openai:** standardize completions to indexed attribute format ([#2242](https://github.com/TheTechOddBug/openinference/issues/2242)) ([478d17a](https://github.com/TheTechOddBug/openinference/commit/478d17a5433bd6119a8d501899a5eadbd2accccf))
+* **python:** get_first_span_id via a context manager ([#2013](https://github.com/TheTechOddBug/openinference/issues/2013)) ([b0b080c](https://github.com/TheTechOddBug/openinference/commit/b0b080c564a2fb72b8f6796cad603f0166bcc767))
+
+
+### Bug Fixes
+
+* **instrumentation:** update openinference span kind helper to include prompt ([#2672](https://github.com/TheTechOddBug/openinference/issues/2672)) ([6603d44](https://github.com/TheTechOddBug/openinference/commit/6603d444d5a36aa661908da24ce6e9d1c78bc1fe))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/TheTechOddBug/openinference/issues/2294)) ([48b7a51](https://github.com/TheTechOddBug/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* version upper bound on wrapt &lt;2.0 ([#2325](https://github.com/TheTechOddBug/openinference/issues/2325)) ([57a4fa3](https://github.com/TheTechOddBug/openinference/commit/57a4fa3329327bea41d6498c992d32ad87fd334c))
+
+
+### Documentation
+
+* **python spec:** add instructions for working on python instrumentation packages ([#2757](https://github.com/TheTechOddBug/openinference/issues/2757)) ([b8bd7ca](https://github.com/TheTechOddBug/openinference/commit/b8bd7ca01e8b7d6a45cbb2d1b65ed42f7dec53f8))
+
 ## [0.1.45](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-v0.1.44...python-openinference-instrumentation-v0.1.45) (2026-02-24)
 
 
